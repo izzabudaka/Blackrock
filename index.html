@@ -1,0 +1,31 @@
+<html>
+<header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+<script src="node_modules/highcharts-ng/dist/highcharts-ng.js"></script>
+<script src="node_modules/bootstrap-slider/dist/bootstrap-slider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="node_modules/bootstrap-slider/dist/css/bootstrap-slider.min.css">
+
+
+<script src="js/app.js"></script>
+<script src="js/highcharts.controller.js"></script>
+<script src="js/map.js"></script>
+<script src="js/slider.js"></script>
+
+
+</header>
+<body ng-clock ng-app="blackrock">
+  <!-- <div class="container-fluid">
+    <div class="row" ng-controller="highcharts as Map">
+      <div class="col-md-6">
+        <highchart config="chartConfig"></highchart>
+      </div>
+    </div>
+  </div> -->
+  <div id="container" style="height:80%"></div>
+  <input id="slider" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
+</body>
+</html>

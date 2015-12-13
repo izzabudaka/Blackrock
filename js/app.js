@@ -1,0 +1,1 @@
+var myapp = angular.module('blackrock', ["highcharts-ng"]);
